@@ -1,9 +1,9 @@
 import React from "react";
 
-function Discover() {
+function ProjectGallery() {
   return (
     <div>
-      <h1>Discover Page</h1>
+      <h1>Project Gallery</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
         mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
@@ -15,4 +15,4 @@ function Discover() {
   );
 }
 
-export default Discover;
+export default ProjectGallery;

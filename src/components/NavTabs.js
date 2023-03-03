@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-// use Navlink instead of a, to replaces href
 function NavTabs() {
   return (
     <ul className="nav nav-tabs">
@@ -18,33 +17,23 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="about"
+          to="project-gallery"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          About
+          Project Gallery
         </NavLink>
       </li>
       <li className="nav-item">
         <NavLink
-          to="discover"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Discover
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="search"
+          to="contact"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Search
+          Contact
         </NavLink>
       </li>
     </ul>
