@@ -8,7 +8,7 @@ import Search from './components/pages/Search';
 
 function App() {
   return (
-    <Router>
+    <Router basename="my-portfolio">
       <div>
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
