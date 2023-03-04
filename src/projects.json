@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Multiverse Trump Game",
+        "deployedLink": "https://pandi1813.github.io/Project---Multiverse-Trumps-Game/",
+        "githubLink": "https://github.com/pandi1813/Project---Multiverse-Trumps-Game",
+        "image": ""
+    },
+    {
+        "id": 2,
+        "title": "Weather Dashboard",
+        "deployedLink": "https://cl-lee.github.io/weather-dashboard/",
+        "githubLink": "https://github.com/cl-lee/weather-dashboard",
+        "image": ""
+    },
+    {
+        "id": 3,
+        "title": "Timed Quiz Challenge",
+        "deployedLink": "https://cl-lee.github.io/timed-quiz-challenge/",
+        "githubLink": "https://github.com/cl-lee/timed-quiz-challenge",
+        "image": ""
+    },
+    {
+        "id": 4,
+        "title": "Work Day Scheduler",
+        "deployedLink": "https://cl-lee.github.io/work-day-scheduler/",
+        "githubLink": "https://github.com/cl-lee/work-day-scheduler",
+        "image": ""
+    },
+    {
+        "id": 5,
+        "title": "Random Password Generator",
+        "deployedLink": "https://cl-lee.github.io/random-password-generator/",
+        "githubLink": "https://github.com/cl-lee/random-password-generator",
+        "image": ""
+    },
+    {
+        "id": 6,
+        "title": "Placeholder",
+        "deployedLink": "#",
+        "githubLink": "#",
+        "image": "https://placehold.co/600x400"
+    }
+]
