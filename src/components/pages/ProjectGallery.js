@@ -4,11 +4,17 @@ import projectsData from "./projects-data.json";
 
 // Add sidebar here to allow for user selection
 
+function returnSelectedProject(event) {
+  let selectedProjectIndex = event.target.selectedIndex;
+  return selectedProjectIndex;
+}
+
 function ProjectDropdownMenu() {
   return (
-    <select name="projects" id="project-selector">
+    <select name="projects" id="project-selector" onChange={returnSelectedProject}>
+      <option value="">--Choose a project from the list--</option>
       {projectsData.map((project) => (
-        <option id={project.id} value={project.title}>
+        <option value={project.title}>
           {project.title}
         </option>
       ))}
