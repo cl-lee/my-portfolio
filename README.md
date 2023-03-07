@@ -17,15 +17,15 @@ The application can be accessed through the following URL: https://cl-lee.github
 Visitors can click on the navigation bar items at the top of the page to navigate the website.
 ![The navigation bar](./assets/navbar.png)
 
-- #### Home
-This page is about who I am, and a short description about myself.
+- #### Home  
+    This page is about who I am, and a short description about myself.
     
-- #### Project Gallery
-This page contains information about projects I was involved in. Users can find the following information about the projects:
+- #### Project Gallery  
+    This page contains information about projects I was involved in. Users can find the following information about the projects:  
     - Project Title
     - GitHub link
     - Deployed link
     - A screenshot preview of the application
 
-- #### Contact
+- #### Contact  
     This is the contact page, where visitors can contact me through methods listed on the page.
