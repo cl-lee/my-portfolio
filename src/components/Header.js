@@ -5,7 +5,6 @@ function Header() {
   return (
     <div>
       <NavTabs/>
-      {/* find a nice image for header */}
     </div>
   );
 }

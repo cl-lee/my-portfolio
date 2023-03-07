@@ -17,6 +17,7 @@ function ProjectDropdownMenu() {
   );
 }
 
+// Renders project based on user selection
 class ProjectGallery extends React.Component {
   state = {
     project: "",

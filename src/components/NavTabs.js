@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+// Renders navigation tabs on top of the page
 function NavTabs() {
   return (
     <ul className="nav nav-tabs">
