@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 class Contact extends Component {
-  // Set contact form's initial state
   state = {
     name: "",
     email: "",
@@ -28,7 +27,7 @@ class Contact extends Component {
     }
   };
 
-  // Contents for Contact page
+  // Renders HTML for Contact page
   render() {
     return (
       <div>

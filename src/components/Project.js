@@ -1,6 +1,4 @@
 import React from "react";
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
 // probably doesn't belong to this component
 
 // Add Router here
@@ -11,6 +9,8 @@ import React from "react";
 // function
 
 // props: which index of array?
+
+
 
 export default function Project(props) {
   return (
