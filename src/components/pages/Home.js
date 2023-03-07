@@ -10,6 +10,9 @@ function Home() {
       <p>
         Welcome to my webpage! Here you can find information about me and my projects!
       </p>
+      <p>
+        A copy of my CV can be found here: <a href="https://drive.google.com/file/d/1IZpGdNwzV9zR1Gp4nW3AcZO0-y6eAi7G/view?usp=sharing">My CV</a>
+      </p>
     </div>
   );
 }
