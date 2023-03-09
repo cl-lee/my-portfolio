@@ -11,28 +11,28 @@
         "title": "Weather Dashboard",
         "deployedLink": "https://cl-lee.github.io/weather-dashboard/",
         "githubLink": "https://github.com/cl-lee/weather-dashboard",
-        "image": ""
+        "image": "/assets/weather-dashboard.png"
     },
     {
         "id": 3,
         "title": "Timed Quiz Challenge",
         "deployedLink": "https://cl-lee.github.io/timed-quiz-challenge/",
         "githubLink": "https://github.com/cl-lee/timed-quiz-challenge",
-        "image": ""
+        "image": "/assets/timed-quiz.png"
     },
     {
         "id": 4,
         "title": "Work Day Scheduler",
         "deployedLink": "https://cl-lee.github.io/work-day-scheduler/",
         "githubLink": "https://github.com/cl-lee/work-day-scheduler",
-        "image": ""
+        "image": "/assets/work-day-scheduler.png"
     },
     {
         "id": 5,
         "title": "Random Password Generator",
         "deployedLink": "https://cl-lee.github.io/random-password-generator/",
         "githubLink": "https://github.com/cl-lee/random-password-generator",
-        "image": ""
+        "image": "/assets/password-generator.png"
     },
     {
         "id": 6,
