@@ -10,7 +10,7 @@ export default function Project(props) {
         <p>
           GitHub repository: <a href={props.githubLink}>{props.githubLink}</a>
         </p>
-        <img alt={props.title} src={props.image} />
+        <img alt={props.title} src={process.env.PUBLIC_URL + props.image} />
       </section>
     );
 }
