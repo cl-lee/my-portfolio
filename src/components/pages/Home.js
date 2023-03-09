@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/Home.css";
 
 // Renders HTML for home page
 function Home() {
