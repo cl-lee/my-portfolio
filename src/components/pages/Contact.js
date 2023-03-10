@@ -30,7 +30,7 @@ class Contact extends Component {
   // Renders HTML for Contact page
   render() {
     return (
-      <div>
+      <div className="p-4">
         <h1>Contact</h1>
         <p>
           Got questions or want to reach out? Feel free to contact me through
