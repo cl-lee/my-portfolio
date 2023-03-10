@@ -11,7 +11,7 @@ function ProjectGallery() {
   function ProjectDropdownMenu() {
     return (
       <div>
-      <p>Please click on a project below to see it!</p>
+      <p className="p-1 m-1">Please click on a project below to see it!</p>
       <ul className="project-nav d-flex flex-wrap justify-content-between p-1">      
         {projectsData.map((project) => (
           <li className="p-2" id={project.id}>

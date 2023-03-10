@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./styles/Contact.css";
 
 class Contact extends Component {
   state = {
@@ -33,16 +34,17 @@ class Contact extends Component {
       <div className="p-4">
         <h1>Contact</h1>
         <p>
-          Got questions or want to reach out? Feel free to contact me through
-          the form below!
+          Got questions? Want to reach out? Feel free to contact me through the
+          form below.
         </p>
-        <form>
+        <form id="contact-form">
           <input
             value={this.state.name}
             name="name"
             onChange={this.handleInputChange}
             type="text"
             placeholder="Name"
+            className="m-2"
           />
           <input
             value={this.state.email}
@@ -50,6 +52,7 @@ class Contact extends Component {
             onChange={this.handleInputChange}
             type="text"
             placeholder="Email Address"
+            className="m-2"
           />
           <input
             value={this.state.message}
@@ -57,8 +60,10 @@ class Contact extends Component {
             onChange={this.handleInputChange}
             type="input"
             placeholder="Message"
+            id="message"
+            className="m-2"
           />
-          <button onClick={this.handleFormSubmit}>Submit</button>
+          <button className="m-2" onClick={this.handleFormSubmit}>Submit</button>
         </form>
         <p>
           You can also drop me an email at{" "}

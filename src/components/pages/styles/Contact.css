@@ -1,0 +1,19 @@
+/* styles input elements in contact form */
+input {
+  display: block;
+  background-color: white;
+  width: 75%;
+  color: black;
+}
+
+/* styles message box in contact form */
+#message {
+  height: 30vh;
+}
+
+/* restrict width of input elements in contact form on larger screens */
+@media (min-width: 768px) {
+  input {
+    width: 50%;
+  }
+}
