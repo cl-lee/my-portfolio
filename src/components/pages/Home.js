@@ -16,7 +16,7 @@ function Home() {
         love to build apps that makes life a bit more fun and easier for everyone!
       </p>
       <p>
-        Skills: Working knowledge of HTML, CSS, Bootstrap, Javascript, ES6,
+        I have working knowledge of HTML, CSS, Bootstrap, Javascript, ES6,
         JQuery, Node.js, ReactJS, APIs, source control, test driven & behavior
         driven development, and Visual Studio
       </p>
