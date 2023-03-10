@@ -12,7 +12,7 @@ function ProjectGallery() {
     return (
       <div>
       <p>Please click on a project below to see it!</p>
-      <ul className="project-nav d-flex justify-content-between p-1">      
+      <ul className="project-nav d-flex flex-wrap justify-content-between p-1">      
         {projectsData.map((project) => (
           <li className="p-2" id={project.id}>
             <NavLink key={project.id} to={project.id.toString()}>
