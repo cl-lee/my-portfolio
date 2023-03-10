@@ -1,16 +1,17 @@
 import React from "react";
+import "./styles/Project.css"
 
 export default function Project(props) {
   return (
-      <section>
-        <h1>{props.title}</h1>
-        <p>
-          Deployed version: <a href={props.deployedLink}>{props.deployedLink}</a>
+      <section className="project-instance">
+        <h2>{props.title}</h2>
+        <img className="d-block mx-auto" alt={props.title} src={process.env.PUBLIC_URL + props.image} />
+        <p className="m-1">
+          Deployed link: <a href={props.deployedLink}>{props.deployedLink}</a>
         </p>
-        <p>
-          GitHub repository: <a href={props.githubLink}>{props.githubLink}</a>
+        <p className="m-1">
+          GitHub repository link: <a href={props.githubLink}>{props.githubLink}</a>
         </p>
-        <img alt={props.title} src={process.env.PUBLIC_URL + props.image} />
       </section>
     );
 }
