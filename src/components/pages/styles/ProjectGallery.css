@@ -1,0 +1,11 @@
+h1 {
+  font-family: "Georgia", serif;
+}
+
+p {
+  font-family: "Gill Sans", sans-serif;
+}
+
+.project-nav {
+  list-style-type: none;
+}
