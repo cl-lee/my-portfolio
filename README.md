@@ -29,3 +29,6 @@ Visitors can click on the navigation bar items at the top of the page to navigat
 
 - #### Contact  
     This is the contact page, where visitors can contact me through methods listed on the page.
+
+### Credits
+Placeholder image: [https://placehold.co/](https://placehold.co/)
