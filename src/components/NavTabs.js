@@ -6,7 +6,7 @@ import "./styles/NavTabs.css"
 function NavTabs() {
   return (
     <ul className="nav nav-tabs p-2">
-      <li className="nav-item col-4 col-lg-2 p-2">
+      <li className="nav-item col-3 col-lg-2 p-2">
         <NavLink
           to="/"
           end
@@ -17,7 +17,7 @@ function NavTabs() {
           Home
         </NavLink>
       </li>
-      <li className="nav-item col-4 col-md-2 p-2">
+      <li className="nav-item col-3 col-md-2 p-2">
         <NavLink
           to="project-gallery"
           className={({ isActive }) =>
@@ -27,7 +27,7 @@ function NavTabs() {
           Project Gallery
         </NavLink>
       </li>
-      <li className="nav-item col-4 col-md-2 p-2">
+      <li className="nav-item col-3 col-md-2 p-2">
         <NavLink
           to="contact"
           className={({ isActive }) =>
