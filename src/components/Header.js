@@ -5,8 +5,8 @@ import "./styles/Header.css";
 
 function Header() {
   return (
-    <div id="app-header" className="d-flex">
-      <img id="my-pic" className="w-25" src={myPicture} alt="Me on a pier in sunset"/>
+    <div id="app-header">
+      <img id="my-pic" src={myPicture} alt="Me on a pier in sunset"/>
       <NavTabs/>
     </div>
   );
