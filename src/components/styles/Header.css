@@ -2,10 +2,3 @@
     height: 15vh;
     position: relative;
 }
-
-#my-pic {
-    border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
-    position: absolute;
-}
