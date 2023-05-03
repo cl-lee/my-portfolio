@@ -1,0 +1,11 @@
+#portfolio-footer {
+    /* position: fixed;
+    bottom: 0; */
+    list-style-type: none;
+    height: 3vh;
+    background-color: white;
+}
+
+#portfolio-footer ul {
+    list-style-type: none;
+}

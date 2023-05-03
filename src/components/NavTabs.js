@@ -6,7 +6,10 @@ import myPicture from "../assets/my-picture.JPG";
 // Renders navigation tabs on top of the page
 function NavTabs() {
   return (
-    <ul id="nav-tab" className="d-flex justify-content-start align-items-center">
+    <ul
+      id="nav-tab"
+      className="d-flex justify-content-start align-items-center"
+    >
       <li className="no-bullets p-2">
         <img id="my-pic" src={myPicture} alt="Me on a pier in sunset" />
       </li>
