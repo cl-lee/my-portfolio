@@ -22,7 +22,7 @@ function Home() {
       </p>
       <p>
         CV: A copy of my CV can be found here:{" "}
-        <a href="https://drive.google.com/file/d/1IZpGdNwzV9zR1Gp4nW3AcZO0-y6eAi7G/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1N-8PDnGETQStxoMBqNvkpUWgkLHbGvua/view?usp=sharing">
           My CV
         </a>
       </p>
