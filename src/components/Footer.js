@@ -7,10 +7,32 @@ export default function Footer() {
     <footer id="footer">
       <ul className="d-flex">
         <li>
-          <img id="github" src={githubIcon} alt="GitHub icon" />
+          <a
+            href="https://www.linkedin.com/in/chung-lai-lee/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              id="linkedin"
+              className="px-3"
+              src={linkedinIcon}
+              alt="LinkedIn icon"
+            />
+          </a>
         </li>
         <li>
-          <img id="linkedin" src={linkedinIcon} alt="LinkedIn icon" />
+          <a
+            href="https://github.com/cl-lee"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              id="github"
+              className="px-3"
+              src={githubIcon}
+              alt="GitHub icon"
+            />
+          </a>
         </li>
       </ul>
     </footer>
