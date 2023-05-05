@@ -4,7 +4,7 @@ import "./styles/Home.css";
 // Renders HTML for home page
 function Home() {
   return (
-    <div className="p-4">
+    <div className="content p-4">
       <h1>Chung Lai Lee</h1>
       <h2>Front End Web Developer</h2>
       <h3>
