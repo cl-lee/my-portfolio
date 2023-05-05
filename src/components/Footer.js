@@ -1,11 +1,11 @@
 import "./styles/Footer.css";
-import githubIcon from "../assets/github-icon.svg";
-import linkedinIcon from "../assets/linkedin-icon.svg";
+import githubIcon from "../assets/github.svg";
+import linkedinIcon from "../assets/linkedin.svg";
 
 export default function Footer() {
   return (
-    <footer id="portfolio-footer">
-      <ul>
+    <footer id="footer">
+      <ul className="d-flex">
         <li>
           <img id="github" src={githubIcon} alt="GitHub icon" />
         </li>

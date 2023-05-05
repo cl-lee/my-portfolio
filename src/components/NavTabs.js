@@ -8,7 +8,7 @@ function NavTabs() {
   return (
     <ul
       id="nav-tab"
-      className="d-flex justify-content-start align-items-center"
+      className="d-flex justify-content-start align-items-center m-0"
     >
       <li className="no-bullets p-2">
         <img id="my-pic" src={myPicture} alt="Me on a pier in sunset" />

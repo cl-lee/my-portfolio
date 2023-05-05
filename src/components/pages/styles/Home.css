@@ -3,6 +3,8 @@
     color: #E8E8E8;
 }
 
+html,body { min-height:100%; }
+
 h1, h2 {
     font-family: "Georgia", serif;
 }
@@ -17,4 +19,8 @@ h3{
 
 p {
     font-family: "Gill Sans", sans-serif;
+}
+
+.content {
+    margin-top: 20vh;
 }
