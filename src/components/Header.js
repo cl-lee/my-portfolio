@@ -1,12 +1,10 @@
-import React from "react";
-import "./styles/Header.css";
 import { NavLink } from "react-router-dom";
+import "./styles/Header.css";
 import myPicture from "../assets/my-picture.JPG";
 
 function Header() {
   return (
-    <div id="app-header">
-      <ul
+    <ul
       id="nav-tab"
       className="d-flex justify-content-start align-items-center m-0"
     >
@@ -25,7 +23,6 @@ function Header() {
         <NavLink to="contact">Contact</NavLink>
       </li>
     </ul>
-    </div>
   );
 }
 
