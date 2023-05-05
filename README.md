@@ -31,4 +31,5 @@ Visitors can click on the navigation bar items at the top of the page to navigat
     This is the contact page, where visitors can contact me through methods listed on the page.
 
 ### Credits
-Placeholder image: [https://placehold.co/](https://placehold.co/)
+- Social media icons from [Get Social - Social Media Font](https://github.com/HaeckDesign/Get-Social-Social-Media-Font/) by [HaeckDesign](https://haeckdesign.com/)
+- Placeholder image from [https://placehold.co/](https://placehold.co/)
